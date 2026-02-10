@@ -1,3 +1,18 @@
+# NOTICE - February 10, 2026
+
+This repository was temporarily offline following the confirmation of unauthorized activity within a limited number of our public DataStax GitHub repositories, listed below. Working with our internal incident response team, we worked to contain, remediate and investigate the activity.
+
+We followed established incident-response processes to review and to revert any unauthorized activity.
+
+Required Actions: Collaborators who interacted with this repository between January 31, 2026, and February 9, 2026, rebase your branch onto the new main / master. **Do not merge main / master into your branch!**
+
+At DataStax, we remain committed to your security and to transparency within the open-source community.
+
+Impacted Repositories:
+ - github.com/KillrVideo/killrvideo-react-frontend
+ - github.com/KillrVideo/kv-be-python-fastapi-dataapi-table
+ - github.com/KillrVideo/kv-dataloader-csharp
+
 # kv-dataloader-csharp
 A simple data loader for the KillrVideo videos table, written in C# (.NET 9.0). This loader uses version 3.22.0 of the [CassandraCSharpDriver](https://www.nuget.org/packages/cassandracsharpdriver/) to write to Astra DB, and generates vector emebeddings using the `ibm-granite/granite-embedding-30m-english` model from HuggingFace.
 
